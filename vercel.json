@@ -1,0 +1,12 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install",
+  "env": {
+    "BASE_API_URL": "@base_api_url",
+    "JWT_SECRET": "@jwt_secret",
+    "AES_KEY": "@aes_key",
+    "AES_IV": "@aes_iv"
+  }
+}
